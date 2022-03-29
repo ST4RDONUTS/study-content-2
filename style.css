@@ -1,0 +1,107 @@
+:root {
+
+    --preto-titulo-principal: #393934;
+    --cinza-claro-background: #D5D5C4;
+    --preto: #000000;
+    --rosa: #d10d48;
+    --amarelo: #bdba1b;
+
+    --font-principal: 'Montserrat';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: var(--cinza-claro-background);
+    height: 40vh;
+    font-family: var(--font-principal);
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 1em;
+    color: var(--preto-titulo-principal);
+}
+
+.subtitulo {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 20px;
+}
+
+.imagemprincipal {
+    display: inline-block;
+    margin: 5em 0em 0em 16em;
+    width: 60%;
+    border: 2px solid var(--preto);   
+}
+
+.legendaimagem {
+    margin: 0 15em;
+    font-family: var(--font-principal);
+    font-style: italic;
+    font-size: 17px;
+}
+
+.bio__titulo {
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 40px;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-style: italic;
+}
+
+.bio__p {
+    font-family: var(--font-principal);
+    font-size: 19px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pespaco {
+    padding-bottom: 1em;
+}
+
+.imagemcruzadas {
+    width: 80%;
+    display: inline-block;
+    margin: 5em 0em 0em 8em;
+}
+
+.legendacruzadas {
+    font-family: var(--font-principal);
+
+}
+
+.rodape {
+    background-color: var(--cinza-claro-background);
+    height: 30vh;
+}
+
+.rodape__titulo {
+    text-align: center;
+    padding-top: 1em;
+    font-family: var(--font-principal);
+}
+
+.link a {
+    display: inline-block;
+    margin: 3em;
+    text-decoration: none;
+    padding-left: 30em;
+    color: var(--rosa);
+    font-size: 17px;
+    font-family: var(--font-principal);
+    
+}
+
+.link a:hover {
+    color: var(--amarelo);
+}
